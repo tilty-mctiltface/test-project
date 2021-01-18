@@ -34,3 +34,7 @@ html, body {
 .section {
     padding: 10px;
 }
+.form-control {
+    max-width: 250px !important;
+    margin-bottom: 10px;
+}

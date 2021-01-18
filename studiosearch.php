@@ -40,7 +40,7 @@ if(isset($_POST['search_field'])) {
             <div class="section">
                 <form action="" method="post">
                     <p>Suche nach Produktionsfirma(* für alle):</p>
-                    <input id="search_field" placeholder="Produktionsfirma" name="search_field"/>
+                    <input class="form-control" id="search_field" placeholder="Produktionsfirma" name="search_field"/>
                     <button type="submit" class="btn btn-primary" id="search" disabled>Suchen</button>
                 </form>
             </div>
