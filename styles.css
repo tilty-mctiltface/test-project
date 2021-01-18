@@ -12,13 +12,21 @@ html, body {
     justify-content: center;
     align-items: center;
     color: blueviolet;
+    background-image: url("bg.jpg");
 }
 
 .link {
     padding: 10px 40px;
+    margin-right: 40px;
     cursor: pointer;
     font-size: x-large;
     transition-duration: 0.25s;
+    background: rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 2px 2px rgb(60, 0, 88);
+    border-radius: 4px;
+}
+.link > a {
+    color: rgb(37, 0, 54) !important;
 }
 .link:hover {
     margin-top: 10px;
