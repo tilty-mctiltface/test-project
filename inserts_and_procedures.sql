@@ -1,5 +1,6 @@
 # Insert Statements
 # Templates!
+
 Insert into production_company (id, name) values (1, "Bavaria Filmstudios");
 Insert into production_company (id, name) values (2, "Great American Films");
 Insert into production_company (id, name) values (3, "Touchstones Pictures");
@@ -35,6 +36,7 @@ insert into film_actors (film_id, actors_id) value (3008, 1);
 
 # Stored procecdures for nicer db calls in php
 # Examples
+
 DELIMITER //
 create procedure SearchByProdCompany(IN searchTerm VARCHAR(255))
 BEGIN
